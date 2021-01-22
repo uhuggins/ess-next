@@ -1,5 +1,5 @@
 import React from "react";
-import Tags from "./Tags";
+import Tags from "./Tag";
 import Question from "./Question";
 import Info from "./Infotable";
 import Navbar from "./Navbar";
