@@ -1,0 +1,18 @@
+.overhead-custom {
+  left: 300px !important;
+  right: 0 !important;
+  top: -100% !important;
+  transition: all 200ms ease;
+  padding: 5px 0 !important;
+  background-color: #343a40 !important;
+}
+
+.overhead-custom.slideIn {
+  top: 0 !important;
+  z-index: 10 !important;
+}
+
+.overhead-custom.slideOut {
+  top: -100% !important;
+  z-index: 0 !important;
+}

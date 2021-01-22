@@ -1,0 +1,16 @@
+.highcharts-container {
+  background-color: transparent;
+}
+.highcharts-plot-background {
+  fill: transparent;
+}
+.highcharts-background {
+  fill: transparent;
+}
+.highcharts-plot-border {
+  fill: none;
+}
+
+.highcharts-legend-box {
+  fill: transparent;
+}

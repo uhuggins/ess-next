@@ -1,0 +1,10 @@
+.layout {
+  display: flex;
+}
+
+.mount {
+  margin-left: 400px;
+  max-width: calc(100vw - 400px);
+  overflow: hidden;
+  padding-right: 50px;
+}

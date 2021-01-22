@@ -1,0 +1,36 @@
+.Side-menu-default *:not(i) {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+.Side-menu-default .divider {
+  background-color: #1a2226;
+  color: #cef0ff;
+  text-transform: uppercase;
+}
+.Side-menu-default .item a {
+  text-decoration: none;
+  color: #c8c6c6;
+}
+.Side-menu-default .item.active {
+  color: #ff6361;
+}
+.Side-menu-default .item.active .children {
+  color: #c8c6c6;
+}
+.Side-menu-default .item.active > .item-title > a {
+  color: white;
+}
+.Side-menu-default .item:hover > .item-title {
+  color: white;
+}
+.Side-menu-default .item:hover > .item-title a {
+  color: white;
+}
+.Side-menu-default .item.item-level-1:hover > .item-title {
+  background-color: #435863;
+}
+.Side-menu-default .item.item-level-1:hover,
+.Side-menu-default .item.item-level-1.active {
+  border-left: 4px solid #c4eaf2;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "cpub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@matejmazur/react-katex": "^3.1.3",
+    "@svgr/webpack": "^5.5.0",
+    "@zeit/next-less": "^1.0.1",
+    "bootstrap": "^4.6.0",
+    "classnames": "^2.2.6",
+    "font-awesome": "^4.7.0",
+    "katex": "^0.12.0",
+    "less": "^4.1.0",
+    "next": "10.0.5",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
+    "react-lazyload": "^3.1.0",
+    "react-scroll": "^1.8.1",
+    "react-sidemenu": "^1.1.0",
+    "react-spinners": "^0.10.4",
+    "react-tooltip": "^4.2.13",
+    "reactstrap": "^8.9.0"
+  }
+}
