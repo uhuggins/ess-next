@@ -1,8 +1,8 @@
-import React from "react"
-import Tags from "./Tags"
-import Question from "./Question"
-import Info from "./Infotable"
-import Navbar from "./Navbar"
+import React from "react";
+import Tags from "./Tag";
+import Question from "./Question";
+import Info from "./Infotable";
+import Navbar from "./Navbar";
 
 function Banner({ data }) {
   return (
@@ -16,7 +16,7 @@ function Banner({ data }) {
       <Info data={data} />
       <Navbar />
     </>
-  )
+  );
 }
 
-export default Banner
+export default Banner;
