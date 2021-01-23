@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 
-function Login({ slideMenu, toggleSlideMenu }) {
+function Login({ slideMenu, toggleSlideMenu, pageTitle }) {
   return (
     <nav
       id="someID"
@@ -69,6 +69,9 @@ function Login({ slideMenu, toggleSlideMenu }) {
           <i class="fas fa-bars" onClick={() => toggleSlideMenu(false)}></i>
         )}
       </div>
+      <span style={{ margin: "auto", textTransform: "capitalize" }}>
+        {pageTitle}
+      </span>
     </nav>
   );
 }
